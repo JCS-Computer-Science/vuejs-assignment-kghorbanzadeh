@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="app.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="https://unpkg.com/vue@next"></script>
+        <title>Front-End Framework (Vue) Assignment</title>
+    </head>
+
+    <body>
+        <div id="adviceGiver">
+            <h1>Here's your Advice for the Day!</h1>
+            <table>
+                <ul>
+                    <li  id="advice">{{advice}}</li>
+                </ul>    
+                <button @click="onClickModel">I want something else!</button>
+            </table>
+        </div>
+    </body>
+</html>
